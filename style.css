@@ -1,0 +1,109 @@
+body{
+    background-color: black;
+}
+.containerGeral{
+    display: flex;
+    flex-direction: column  ;   
+    align-items: center;
+    justify-content: start;
+    background-color: rgb(14, 14, 14);
+    margin-top:150px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    width: 1280px;
+    height: 720px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    color: white;
+    margin-bottom: 100px;
+}
+.container img{
+    margin-bottom: 50px;
+}
+.container h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    
+}
+
+.containerUsers {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 700px;
+    gap: 16px;
+    margin:0 ;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+figure {
+    overflow: hidden;
+    width: 160px;
+    border-radius: 15px;
+    border:1px solid transparent;
+}
+
+figure:hover{
+    border:1px solid white;
+
+}
+
+.expandir:hover{
+	transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+#frame{ 
+        width: 160px;
+        height: 160px;
+        background-image: url("img/Frame5.png");
+        transition: 0.3s;
+}
+#frame:hover{
+        background-image: url("img/Frame\ 5-1.png");
+}
+
+p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+    margin-top:5px;
+    color:gray;
+}
+
+.containerFooter {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    
+}
+
+footer button{
+    width: 206px;
+    height:50px;
+    border:1px solid;
+    border-radius: 8px;
+    background-color: rgb(14, 14, 14);
+    color:white;
+
+}
+
+.aplicarCor :hover{
+    background-color: white;
+    color:black;
+
+}
